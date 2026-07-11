@@ -26,7 +26,9 @@
 project_root/
 ├── crawling/      # 面接レビューデータ収集ノートブック (crawl_interview_reviews.ipynb)
 ├── lda/           # トピックモデリング分析 (topic_modeling_lda.ipynb)
-├── chatgpt_api/   # APIを活用したデータ拡張・加工 (chatgpt_data_augmentation.ipynb)
+├── chatgpt_api/   # APIを活用したデータ拡張・高度化パイプライン
+│   ├── chatgpt_data_augmentation.ipynb
+│   └── advanced_question_pipeline.py # 質問生成高度化 (N-gram, TF-IDF, 3段質問生成)
 ├── prediction/    # モデル学習・評価用ノートブックとTokenizer
 ├── server/        # 合否予測(/predict)および自己紹介書添削(/feedback) Flaskサーバー
 └── app/           # Androidアプリケーション (Kotlin, Gradle)
@@ -47,6 +49,11 @@ project_root/
 
 業種(銀行・建設・IT・メディア・医療など10業種)×職種の組み合わせごとに、LDAトピックモデリングとChatGPT API(`gpt-3.5-turbo`)で生成した予想面接質問(全208カテゴリ・計1,755問)および面接の雰囲気を表示します。
 
+- **質問生成高度化パイプライン (`advanced_question_pipeline.py`)**:
+  - 実レビューから質問文の原型を安全に抽出 (`extract_raw_questions`)
+  - N-gram (Bi-gram) 結合による専門用語の文脈維持 (`preprocess_corpus_with_bigrams`)
+  - TF-IDF による職種固有の希少技術キーワード抽出 (`extract_domain_specific_keywords`)
+  - 実務技術・職種価値観・深層圧迫質問の3段階立体質問セット生成 (`generate_multidimensional_questions`)
 - 質問データは `app/app/src/main/assets/interview_questions.json` に集約し、共通の `InterviewQuestionsFragment` がNavigation引数(`question_set`)を受け取って動的に描画する設計としています。
 
 ### 3. 自己紹介書添削
