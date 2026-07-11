@@ -1,0 +1,23 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Android / Gradle
+app/build/
+app/**/build/
+.gradle/
+.idea/
+*.iml
+local.properties
+.cxx/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

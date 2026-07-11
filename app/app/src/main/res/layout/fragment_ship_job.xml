@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShipJobFragment">
+
+    <LinearLayout
+
+        android:layout_width="410dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="어느 직종 면접 질문을 보여드릴까요?"
+                android:textSize="24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="유통/무역/운송에서 원하는 직종을 골라주세요"
+                android:textSize="19dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="65dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ship_support_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="고객지원"/>
+            <Button
+                android:id="@+id/ship_plan_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="기획/경영"/>
+
+            <Button
+                android:id="@+id/ship_business_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="영업/제휴"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="65dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ship_personnel_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="인사/총무"/>
+
+            <Button
+                android:id="@+id/ship_dev_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="개발"/>
+
+            <Button
+                android:id="@+id/ship_marketing_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="마케팅"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="65dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ship_engine_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="엔지니어링"/>
+            <Button
+                android:id="@+id/ship_money_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="금융/재무"/>
+            <Button
+                android:id="@+id/ship_making_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="생산/제조"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="65dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ship_design_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="디자인"/>
+
+            <Button
+                android:id="@+id/ship_profess_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="전문직"/>
+
+            <Button
+                android:id="@+id/ship_manage_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="생산관리/품질관리"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="65dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ship_research_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="연구개발"/>
+
+            <Button
+                android:id="@+id/ship_media_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="미디어/홍보"/>
+
+            <Button
+                android:id="@+id/ship_trade_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="유통/무역"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="65dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ship_edu_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="교육"/>
+
+            <Button
+                android:id="@+id/ship_etc_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="기타"/>
+
+            <Button
+                android:id="@+id/ship_special_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="특수계층/공공"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="65dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ship_data_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="데이터"/>
+
+            <Button
+                android:id="@+id/ship_law_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="법률/법무"/>
+
+            <Button
+                android:id="@+id/ship_drug_btn"
+                android:backgroundTint="#76A2D8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="의약"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

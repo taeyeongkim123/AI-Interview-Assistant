@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <!-- 서비스업 기획 직무 면접 리스트 텍스트 -->
+
+    <!-- 입력창 및 버튼을 포함하는 LinearLayout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="24dp"
+        android:text="면접느낌을 적어주세요"
+        android:textSize="24dp"
+        android:layout_margin="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <!-- 입력창 -->
+        <EditText
+            android:id="@+id/editTextData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="데이터 입력" />
+
+        <!-- 요청 버튼 -->
+        <Button
+            android:id="@+id/buttonSendRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="면접느낌 보내기"
+            android:backgroundTint="#2871AC"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/predictionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/first_fragment"
+        android:title="면접질문"
+        android:icon="@drawable/ic_question_answer_24" />
+
+    <item
+        android:id="@+id/second_fragment"
+        android:title="합불차이"
+        android:icon="@drawable/baseline_compare_arrows_24" />
+
+    <item
+        android:id="@+id/third_fragment"
+        android:title="면접예측"
+        android:icon="@drawable/ic_predict_24" />
+
+    <item
+        android:id="@+id/fourth_fragment"
+        android:title="자소서첨삭"
+        android:icon="@drawable/ic_edit_note_24" />
+</menu>
