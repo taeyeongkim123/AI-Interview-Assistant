@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ShipTradeFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡유통-유통/무역"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="1.이 회사에 지원한 이유와 경력사항을 말해주세요."
+            android:textSize="17dp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corner"
+            android:text="2.이전 회사에서의 경험과 업무를 설명해주세요."
+            android:textSize="17dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="3.지원한 직무와 관련하여 토론 주제를 구성하고 진행한 경험에 대해 이야기해주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="4.당신의 장점과 단점을 말씀해주세요. 또한, 상품이나 기업에 대한 아이디어를 제시해주세요."
+            android:textSize="17dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="5.유통 또는 무역과 관련된 학과 전공 및 경험이 어떻게 되나요?"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="6.물류와 통운에 대한 경험 및 관련 직무 수행 경험에 대해 이야기해주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="7.근무 가능일과 여러분의 성격, 강점 및 약점에 대해 말씀해주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="8.여태까지 가지고 있는 직무와 직장 업무에 대한 경험이 어떻게 되나요?"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="9. 다른 사람과의 충돌이 있었을 때 어떻게 대처하는 지 묘사해주세요. 특히 물류 분야에서의 경험을 얘기해주세요."
+            android:textSize="17dp"></TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

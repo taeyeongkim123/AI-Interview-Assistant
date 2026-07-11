@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ITSpecialFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡IT-특수계층/공공"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="1. 지원한 직무와 관련하여 어떤 경험과 역량을 가지고 계신가요?"
+            android:textSize="17dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corner"
+            android:text="2. 이 회사를 선택한 이유는 무엇인가요? 어떤 사업에 관심이 있나요?"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="3. 어떤 도움을 흥원 사회에 제공하고 싶으신가요? 이를 위해 어떤 정보를 조사하고 계신가요?"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="4. 스트레스 상황에서도 잘 진행할 수 있는 인성을 가지고 계신가요? 도움을 받지 않고도 상황을 해결할 수 있는 능력이 있나요?"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="5. 이전 경력과 경험들을 통해 어떤 성격과 장단점을 가지고 있나요?"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="6. 다른 지원자들과의 차별화를 위해 어떤 거리를 두고 아이디어를 발전시킬 수 있는 능력이 있나요?"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="7. 여러분의 상황을 고려하여 왜 이 회사에 지원하고자 하나요? 현재 진행 중인 사회의 문제를 어떻게 해결하고자 하는 아이디어를 가지고 있나요?"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="8. 이전 직장에서의 퇴사 이유와 그 문제들을 해결하기 위해 어떤 아이디어를 가지고 계신가요? 이 사회에서 어떤 도움을 줄 수 있는지 설명해주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="9. 성과를 이끌어내는 데에는 어떤 경력과 상사의 의견을 어떻게 수렴하여 발전시키는 방법이 있는지 알려주세요. 여러분의 장점이 어떤 것인지도 말씀해주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="10. 지원한 사업을 진행하며 어떤 거리를 두고 장단점을 파악하고 있나요? 상황에 맞게 대처할 수 있는 능력을 가지고 있나요?"
+            android:textSize="17dp"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>

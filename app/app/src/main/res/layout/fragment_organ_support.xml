@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".OrganSupportFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡기관/협회-고객지원"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corner"
+            android:text="1. 당신이 이 전공을 선택한 이유는 무엇인가요"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corner"
+            android:text="2. 이전에 고객지원 업무를 경험한 적이 있으신가요"
+            android:textSize="17dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="3. 문제 해결에 대한 기관이 어떠한 자격증이 있으신가요"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="4. 그 자격증을 어떻게 활용하고 있나요"
+            android:textSize="17dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="5. 이전 아르바이트나 인턴으로서 어떤 종류의 부서에서 업무를 수행했나요"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="6. 가장 좋은 기억으로 남는 고객 서비스 경험이 있으신가요"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="7. 이 회사에서의 경력을 통해 어떤 업무에서 능숙해졌나요"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="8. 영어 회화에 대한 기본 지식이 있는지 확인해 볼 수 있을까요"
+            android:textSize="17dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="9. 업무에서 어려운 상황이 발생했을 때 어떻게 대처했나요"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="10. 업무에서 발생하는 스트레스를 어떻게 처리하고 있나요"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="11. 이 회사에 입사하게 된다면 어떤 업무를 맡고자 하는지 적극적으로 알려주세요"
+            android:textSize="17dp"></TextView>
+    </LinearLayout>
+
+</ScrollView>

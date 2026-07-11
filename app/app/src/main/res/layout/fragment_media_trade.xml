@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MediaTradeFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡미디어-유통/무역"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="1. 유통/무역 직무에서의 경험을 어떻게 쌓아오셨나요?"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="2. 유통/무역 직무에서의 프로젝트를 성공적으로 구매와 유통하는 구체적인 계획을 어떻게 수립하셨나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="3. 유통/무역 직무에서의 야근은 어떤 경험이 있으신가요? 어떻게 처리하셨나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="4. 외국어, 특히 영어가 유통/무역 직무에 얼마나 중요하다고 생각하시나요? 어떻게 영어 실력을 향상시키셨나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="5. 유통/무역 직무에서의 업무를 진행하면서 기억에 남는 일이 있으신가요? 그 경험에 대해 어떻게 대처했나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="6. 유통/무역 직무에서의 경력이 있는데, 왜 퇴사하고 지역을 선택하셨나요?"
+                android:textSize="17dp"></TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

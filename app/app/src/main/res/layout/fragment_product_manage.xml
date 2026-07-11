@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProductManageFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡제조/화학-생산관리/품질관리"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="1. 생산관리/품질관리 업무에서 제품의 품질 관리가 왜 중요한가요?"
+            android:textSize="17dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corner"
+            android:text="2. 생산관리/품질관리 업무에서 상황에 따라 상사와의 대처, 문제 해결 방법을 설명해주세요."
+            android:textSize="17dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="3. 생산관리/품질관리 업무에 대한 전공 지식 이외에도 인성과 영어 능력이 어떤 역할을 하는지 설명해주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="4. 야근이 필요한 경우가 생긴다면 어떻게 대처하실 것인지 말씀해주세요."
+            android:textSize="17dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="5. 입사에 대한 장단점과 자신의 성격, 자격증, 역량에 대해 어떻게 생각하시는지 말씀해주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="6. 생산관리/품질관리 업무 경험 중 특정 프로젝트나 인턴 생활에서 어떤 어려움을 극복했는지 알려주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="7. 반도체 생산과정에 대한 학점과 관련된 활동이 있으신가요? 그 기간 동안 어떤 역할을 했는지 설명해주세요."
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:text="8. 회사에서 업무를 수행하는 경력이 있는데, 그 경력에서 생산관리/품질관리 업무와 어떤 관련이 있는지 말씀해주세요. 또한, 업무 수행 시 영어 능력이 어떤 역할을 하는지 설명해주세요."
+            android:textSize="17dp"></TextView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

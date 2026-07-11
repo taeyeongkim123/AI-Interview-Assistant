@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MediaEngineFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡미디어-엔지니어링"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="1. 입사 전공과 관련하여 어떤 경험을 가지고 있으신가요?"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="2. 이전 직장에서 어떤 업무를 맡았고 어떤 성과를 이뤄내셨나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="3. 야근에 대해 어떻게 생각하시고 가능하신가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="4. 엔지니어링 분야에서 다양한 사람들과 협업하면서 어떤 경험을 가지셨나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="5. 회사에서 가지고 싶은 직종이 있나요? 그 이유는 무엇인가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="6. 엔지니어링 업무를 수행하는데 필요한 지식과 기술들에 대해 어떻게 준비하고 계신가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="7. 이전에 프로젝트를 진행하면서 어떤 경험을 하셨나요? 준비한 시간과 결과에 대해 어떻게 생각하시나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="8. 입사 후에 실무에서 어떤 도움이 되실 수 있는 역량을 갖추고 계신가요? 나아가 어떤 프로젝트에 참여하고 싶으신가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="9. 입사 전에 회사의 설비와 직무에 대하여 어떤 준비를 하셨나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="10. 엔지니어링 직무를 수행하면서 회사에 어떤 가치를 추가할 수 있을 것 같나요? 이에 관련하여 어떤 경험이 있으신가요?"
+                android:textSize="17dp"></TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

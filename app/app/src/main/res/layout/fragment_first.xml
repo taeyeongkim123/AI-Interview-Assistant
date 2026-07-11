@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:id="@+id/home_fragment"
+    android:background="@color/white"
+
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="어느 직종 면접 질문을 보여드릴까요?"
+                android:textSize="24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="원하는 산업군을 골라주세요"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="100dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/service_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#76A2D8"
+                android:layout_margin="15dp"
+                android:text="서비스업"/>
+            <Button
+                android:id="@+id/product_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:backgroundTint="#76A2D8"
+                android:text="제조/화학"/>
+
+            <Button
+                android:id="@+id/med_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#76A2D8"
+                android:layout_margin="15dp"
+                android:text="의료/제약"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="100dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:backgroundTint="#76A2D8"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ship_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#76A2D8"
+                android:layout_margin="15dp"
+                android:text="유통/무역/운송"/>
+
+            <Button
+                android:id="@+id/edu_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#76A2D8"
+                android:layout_margin="15dp"
+                android:text="교육업"/>
+
+            <Button
+                android:id="@+id/build_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#76A2D8"
+                android:layout_margin="15dp"
+                android:text="건설업"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="100dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:backgroundTint="#76A2D8"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/it_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:backgroundTint="#76A2D8"
+                android:text="IT/웹/통신"/>
+            <Button
+                android:id="@+id/media_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:backgroundTint="#76A2D8"
+                android:text="미디어/디자인"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="100dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bank_btn"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#76A2D8"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="금융업"/>
+            <Button
+                android:id="@+id/organ_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#76A2D8"
+                android:layout_margin="15dp"
+                android:text="기관/협회"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

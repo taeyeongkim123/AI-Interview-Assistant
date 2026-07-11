@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuildFeelFragment"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="1dp"
+        android:layout_above="@+id/service_feel_btn">
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/button">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="💡미디어 면접 느낌 차이"
+                android:textSize="24dp"/>
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_margin="10dp"-->
+            <!--                    android:background="@drawable/round_corner_p"-->
+            <!--                    android:text="  합격 면접 느낌 특징"-->
+            <!--                    android:textSize="20dp"/>-->
+
+            <Button
+                android:id="@+id/media_feel_p_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:text="✔️    합격 면접 느낌 특징"/>/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text=" 1.분위기와 편안함\n 2.답변 능력\n 3.사회적 기술\n 4.시간 관리\n 5.마케팅 관심"
+                android:textSize="19dp"/>
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_margin="10dp"-->
+            <!--                    android:background="@drawable/round_corner_p"-->
+            <!--                    android:text="  불합격 면접 느낌 특징"-->
+            <!--                    android:textSize="20dp"/>-->
+
+            <Button
+                android:id="@+id/media_feel_n_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:text="✔️    불합격 면접 느낌 특징"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text=" 1.답변 능력 부족\n 2.영어 역량\n 3.진행과 편안함 부족\n 4.사회적 기술 부족\n 5.업무 이해도 부족"
+                android:textSize="19dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner_p"
+                android:text="  면접 느낌 차이"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="합격자들은 분위기와 편안함, 답변 능력, 사회적 기술, 시간 관리, 마케팅 관심 등 긍정적인 특성을 갖췄으며, 불합격자들은 이러한 측면에서 부족함이 나타났습니다."
+                android:textSize="19dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

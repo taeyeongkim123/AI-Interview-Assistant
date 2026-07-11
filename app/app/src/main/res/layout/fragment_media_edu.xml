@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MediaEduFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡미디어-교육"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="1. 귀하의 직무 경험이 어떻게 되나요? 야근이 많이 발생하는 업무를 어떻게 처리하셨나요? 전공 과목 중에서 가장 자신 있는 것은 무엇인가요? 장단점을 말씀해주세요."
+                android:textSize="17dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="2. 교재를 기획하는 과정에서 가장 큰 장점은 무엇인가요? 연봉 협상에 있어서 어떤 전략을 사용했는지 알려주세요. "
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="3. 어떤 사람이 가능한 가장 좋은 아이를 교육할 수 있을 것이라고 생각하나요? 왜 그런 생각을 하시게 되었나요? 저희 회사에서 근무하고 싶은 이유가 무엇인가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="4. 이전 직장에서 어떤 경험을 했나요? 귀하의 전문적인 업무 경험에 대해 설명해주세요. 왜 저희 회사에 입사하고 싶은 이유가 있나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="5. 영어 교육 분야에서 가장 자신이 있는 부분은 무엇인가요? 어떤 교재나 스크립트를 사용했는지 알려주세요. 이전의 영어 교육 경력을 한 가지 사례를 들며 설명해주세요."
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="6. 귀하가 경력을 쌓은 회사에서 어떤 업무를 주로 맡았나요? 어떤 경험을 통해 전문성을 향상시켰나요? 저희 회사에서 귀하를 고용하는 이유는 무엇일까요?"
+                android:textSize="17dp"></TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

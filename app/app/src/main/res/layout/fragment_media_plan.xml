@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MediaPlanFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡미디어-기획/경영"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="1. 이전에 근무하던 회사에서의 기획/경영 업무 경험에 대해 이야기해주세요."
+                android:textSize="17dp">
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="2. 어떤 프로젝트에서 참여하였으며, 어떤 방법으로 문제를 해결했나요?"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="3. 이전 직장에서 퇴사한 이유를 말씀해주세요."
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="4. 당신의 장점과 단점 중에서 어떤 것이 가장 돋보이며, 왜 그렇게 생각하나요?"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="5. 기획/경영 분야에 대해 특별히 관심을 가지고 있는 사항이 있나요? 또한 그 이유는 무엇인가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="6. 야근이 필요한 상황이 발생했을 때, 어떻게 대처하실 수 있나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="7. 입사 후 바로 업무에 착수할 수 있는 준비가 되어있나요? 관련된 포트폴리오 등을 제시할 수 있나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="8. 회사에서 업무를 진행하는 동안 분위기와 협업상황에 대해서 어떻게 기억하고 계신가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="9. 마케팅 업무에 관심이 있는데, 왜 마케팅 직무를 선택하려고 합니까? 연봉과 출퇴근 등 타 부문과 비교하여 어떤 점이 더 매력적인가요?"
+                android:textSize="17dp"></TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

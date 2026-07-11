@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthFragment">
+
+    <!-- 자기소개서 첨삭 입력창 및 버튼을 포함하는 LinearLayout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="24dp"
+        android:text="자기소개서를 입력하면 개선점을 첨삭해 드려요"
+        android:textSize="20dp"
+        android:layout_margin="30dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <!-- 자기소개서 입력창 -->
+            <EditText
+                android:id="@+id/editTextCoverLetter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="6"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:hint="자기소개서 문항과 답변을 붙여넣으세요" />
+
+            <!-- 첨삭 요청 버튼 -->
+            <Button
+                android:id="@+id/buttonSendCoverLetter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="첨삭 받기"
+                android:backgroundTint="#2871AC"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/feedbackTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="16dp"
+                android:padding="16dp"
+                android:gravity="start"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

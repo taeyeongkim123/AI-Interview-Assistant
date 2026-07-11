@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MediaMoneyFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡미디어-금융/재무"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="1. 회사에서 회계 업무를 맡고 있으며, 야근이 많은 편인가요?"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="2. 회사 업무 중 회계 업무가 주요한 역할인가요? "
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="3. 앞선 회사에서의 이직 사유가 주로 어떤 이유였나요? "
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="4. 이직 후에 새로운 회사에서 회계 업무를 담당하면서 어떤 경험을 하셨나요? "
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="5. 회사 내에서 인성 측면에서 어떤 요소가 가장 중요하다고 생각하시나요? "
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="6. 현재까지의 경력을 고려할 때, 회계 업무에 필요한 기본 역량이 어떤 것들이라고 생각하시나요? "
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="7. 회사에서의 직급이나 역할 중에 대표가 되기 위해 얼마나 시간이 걸릴 것으로 예상하시나요? "
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="8. 이전 직장에서 이직하게 된 이유 중 회사나 직장 내 관계가 있었나요? "
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="9. 회사 내에서 재무제표 작성 업무가 어느 정도의 비중을 차지하는지 알고 계시나요?"
+                android:textSize="17dp"></TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

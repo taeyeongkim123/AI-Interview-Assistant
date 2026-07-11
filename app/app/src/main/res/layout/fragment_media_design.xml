@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MediaDesignFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡미디어-디자인"
+                android:textSize="24dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="1. 지원한 직무에 대해 어떤 경험이 있으신가요?"
+                android:textSize="17dp">
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="2. 학교나 이전 직장에서 어떤 분위기에서 일했나요? 그 분위기에서 어떻게 대처했나요?"
+                android:textSize="17dp"></TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="3. 디자인 분야에서 경험하신 회사나 프로젝트 중 자랑하실만한 것이 있나요? 포트폴리오를 보여주실 수 있나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="4. 이 회사의 분야에 관심이 있는 이유는 무엇인가요? 이 분야에서 디자인 경력을 쌓기로 결정한 이유는 무엇인가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="5. 이전 회사나 프로젝트에서 야근을 해야 했던 경험이 있으신가요? 어떻게 대처했나요? 그 경험이 회사 업무에 어떤 영향을 미쳤나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="6. 이전 회사나 프로젝트에서 광고 디자인을 하신 경험이 있으신가요? 광고 디자인을 선택한 이유와 어떤 성격이 필요한지 설명해주세요? 그리고 지금까지 광고 디자인을 하면서 퇴사한 경험이 있으신가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="7. 디자인 회사에서 입사하여 업무를 시작하게 된다면, 포트폴리오와 같이 중요하게 생각하는 것은 무엇인가요?"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="8. 디자인 업무를 수행하기 위해 어디에 주로 참고하거나 영감을 얻으신다구요? 어떤 포트폴리오가 만들어진 후에도 계속해서 개선 및 발전시키는 중요한 요소라고 생각하시나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="9. 디자인 업무를 수행할 때 어떤 프로그램을 주로 사용하시는지 알려주세요. 해당 프로그램을 사용할 수 있는 시간이나 근무 시간은 어떻게 되나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="10. 이전 프로젝트에서 어떤 과제를 맡아서 해결하셨나요? 그 과제를 수행하는 동안 다른 사람과 협업한 경험이 있으신가요? 어떤 애니메이션을 만들었는지 설명해주세요. 그 때 문제가 되거나 어려웠던 점은 무엇이었나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="11. 이전 직장에서 프로젝트를 진행하면서 어떤 업무를 맡았고, 그 업무를 성공적으로 마무리한 경험이 있으신가요? 포트폴리오를 보여주실 수 있나요? 그 프로젝트에서 회사에 어떤 영향을 미쳤나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="12. 디자인 업무를 수행할 때 어떤 업무가 가장 기본적인 업무라고 생각하시나요? 그리고 그 업무에서 필요한 역량은 어떤 것인가요? 이 역량을 갖추기 위해서는 어떻게 노력하고 계신가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="13. 과거의 프로젝트나 경력에서 어떤 프로그램을 사용하는 데 어려움을 겪었던 경험이 있으신가요? 그 때 어떤 대처방법을 사용하셨나요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="14. 이전 직장에서 어떤 프로젝트를 진행하셨나요? 그 프로젝트에서 어떤 광고를 만들었으며, 어떤 사람들과 협업했나요? 그리고 그 프로젝트를 완료한 후에 퇴사한 경험이 있으신가요?"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="15. 디자인 분야에서 회사에 어떤 업무를 기여하고 싶으신가요? 지원한 직무와 관련하여 기술적인 역량과 실무 경험을 어떻게 발휘할 수 있을 것 같나요? 어떤 업무 경험이 있나요?"
+                android:textSize="17dp"></TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

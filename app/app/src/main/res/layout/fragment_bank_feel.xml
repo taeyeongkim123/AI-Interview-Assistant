@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuildFeelFragment"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="1dp"
+        android:layout_above="@+id/servive_feel_btn">
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/button">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="💡금융업 면접 느낌 차이"
+                android:textSize="24dp"/>
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_margin="10dp"-->
+            <!--                    android:background="@drawable/round_corner_p"-->
+            <!--                    android:text="  합격 면접 느낌 특징"-->
+            <!--                    android:textSize="20dp"/>-->
+
+            <Button
+                android:id="@+id/bank_feel_p_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:text="✔️ 합격 면접 느낌 특징"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text=" 1.분위기와 편안함\n 2.답변 능력\n 3.업무 경험"
+                android:textSize="17dp"/>
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_margin="10dp"-->
+            <!--                    android:background="@drawable/round_corner_p"-->
+            <!--                    android:text="  불합격 면접 느낌 특징"-->
+            <!--                    android:textSize="20dp"/>-->
+
+            <Button
+                android:id="@+id/bank_feel_n_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:backgroundTint="@color/white"
+                android:text="✔️ 불합격 면접 느낌 특징"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text=" 1.압박\n 2.답변 능력 부족\n 3.금융 관련 지식 부족"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner_p"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text="  면접 느낌 차이"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="합격자들은 편안한 분위기에서 업무를 수행하며 답변 능력과 업무 경험이 풍부하였습니다. 반면, 불합격자들은 압박을 다루지 못하고 답변 능력 및 금융 지식 부족으로 인해 불합격되었습니다."
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

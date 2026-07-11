@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MediaSupportFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layouy_editor_absoluteY="230dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:text="💡미디어-서비스/고객지원"
+                android:textSize="24dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="300dp"
+            android:orientation="horizontal">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:text=" 핵심면접질문"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="1. 중국어 경험이 있으신가요? 그 경험을 통해 어떤 장단점을 발견하셨나요? 저희 회사에서는 중국어를 어떻게 활용할 수 있는지 말해주세요. "
+                android:textSize="17dp"></TextView>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/round_corner"
+                    android:text="2. 영화관에서 아르바이트 경험이 있으신가요? 그 경험을 통해 어떤 상황을 대처하는 방법을 배웠나요? 저희 회사에서도 유사한 상황이 발생할 수 있습니다. 그럴 때 어떻게 대처하실 건지 말씀해주세요."
+                    android:textSize="17dp"></TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="3. 공항에서 일하면서 어떤 스트레스 상황에 직면한 적이 있나요? 해당 상황에서 어떻게 대응했으며, 결과는 어떠했나요? 또한, 저희 회사에서 제공하는 연봉 및 수당에 대해 어떻게 생각하시는지 말해주세요."
+                android:textSize="17dp"></TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="4. 택시운전사로 일하면서 다양한 업무 상황을 경험하셨을 것 같습니다. 어떤 상황에서 가장 어려움을 겪었으며, 어떻게 해결했나요? 저희 회사에서는 어떤 성격의 사람이 성공할 수 있을까요?"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="5. 판매 업무에서 근무 경험이 있으신가요? 다양한 제품을 다루며 어떻게 로테이션을 진행했는지 말씀해주세요. 또한, 경영학을 전공하셨다면 그 전공을 어떻게 활용할 수 있을지 말해주세요."
+                android:textSize="17dp"></TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="6. 메가박스에서 근무하면서 어떤 환경에서 매출을 올렸다고 생각하시나요? 그 매출을 올린 방법 중 가장 주목할 만한 점은 무엇이었나요? 앞으로도 같은 전략을 활용할 수 있는지 말씀해주세요. "
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:layout_margin="10dp"
+                android:text="7. 면세점에서 일하면서 주로 시내들을 다니게 됩니다. 그로 인해 발생한 어려움과 장점은 무엇이었나요? 상황에 따라 관계를 어떻게 조절하셨는지 말씀해주세요. "
+                android:textSize="17dp"></TextView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

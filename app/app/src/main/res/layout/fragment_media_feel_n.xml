@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaFeelNFragment">
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="1dp">
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/button">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="💡미디어 불합격 느낌 특징"
+                android:textSize="24dp"/>
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_margin="10dp"-->
+            <!--                    android:background="@drawable/round_corner_p"-->
+            <!--                    android:text="  합격 면접 느낌 특징"-->
+            <!--                    android:textSize="20dp"/>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:background="@drawable/round_corner_p"
+                android:text=" 답변 능력 부족"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="불합격자들은 답변 능력이 부족하였으며, 자기소개와 경험 설명에 어려움을 겪었습니다."
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:background="@drawable/round_corner_p"
+                android:text=" 영어 역량"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="불합격자들 중 일부는 영어 역량이 부족하였습니다.
+진행과 편안함 부족: 불합격자들은 업무 진행과 분위기에 대한 이해도가 낮았으며, 편안함을 느끼지 못했습니다."
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:background="@drawable/round_corner_p"
+                android:text="진행과 편안함 부족"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="불합격자들은 업무 진행과 분위기에 대한 이해도가 낮았으며, 편안함을 느끼지 못했습니다."
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:background="@drawable/round_corner_p"
+                android:text=" 사회적 기술 부족"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="불합격자들은 사람들과의 관계 형성 및 소통 능력에 부족함이 있었습니다."
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:textColor="#2871AC"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:background="@drawable/round_corner_p"
+                android:text=" 업무 이해도 부족"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner"
+                android:text="불합격자들은 업무와 관련한 이해도가 부족하였으며, 관련 경험이 덜했습니다."
+                android:textSize="17dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
